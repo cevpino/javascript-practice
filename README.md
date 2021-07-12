@@ -7,3 +7,10 @@ Curso practico de Javascript
 - Segundo paso: Implementar las fórmulas en JS
 - Tercer paso : Crear las funciones
 - Cuarto paso : Integrar JS con HTML
+
+## Taller práctico # 2: Cálculo de porcentajes y descuentos
+
+- Primer paso : Definir las fórmulas
+- Segundo paso: Implementar las fórmulas en JS
+- Tercer paso : Crear las funciones
+- Cuarto paso : Integrar JS con HTML

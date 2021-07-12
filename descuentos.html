@@ -9,8 +9,22 @@
 <body>
     <header>
         <h1>Taller # 2 - Práctica de prcentajes y descuentos</h1>
+        <p>Este es el segundo taller del curso práctico de JS de Platzi</p>
     </header>
-    
+    <section>
+        <h3>Calcula el precio a pagar de tus productos con descuento</h3>
+        <form action="">
+            <label for="inputPrice">Escribe el precio de tu producto: </label>
+            <input id="inputPrice" type="number">
+
+            <label for="inputDiscount">Escribe el descuento de tu producto: </label>
+            <input id="inputDiscount" type="number">
+
+            <button type="button" onclick="priceDiscount()">Calcular el precio con descuento</button>
+
+            <p id="resultPrice"></p>
+        </form>
+    </section>
     <script src="./descuentos.js"></script>
 </body>
 </html>

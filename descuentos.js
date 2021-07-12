@@ -23,3 +23,13 @@ function calcularPrecioConDescuento(price, discount){
     return priceWithDiscount;
 }
 calcularPrecioConDescuento();
+
+function priceDiscount(){
+    const price = document.getElementById("inputPrice").value;
+    const discount = document.getElementById("inputDiscount").value;
+
+    const finalPrice = calcularPrecioConDescuento(price, discount);
+
+    document.getElementById("resultPrice").innerText = "El precio con descuento es: " + finalPrice;
+    // alert("Pecio final: " + finalPrice);
+}

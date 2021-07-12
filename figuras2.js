@@ -58,3 +58,23 @@ function calcularAreaCuadrado(){
     const areaC = areaCuadrado(valor);
     alert("El área del cuadrado es : " + areaC);
 }
+
+function calcularAlturaTriangulo(){
+    const lado1T = document.getElementById("lado1T");
+    const valor1 = lado1T.value;
+
+    const lado2T = document.getElementById("lado2T");
+    const valor2 = lado2T.value;
+
+    const baseT = document.getElementById("baseT");
+    const base = baseT.value;
+
+
+    if( valor1 === valor2 && valor1 != base ){
+        const altura = Math.sqrt( (valor1 * valor2) - ((base ** 2) / 4))
+        alert("Es un triángulo isósceles su altura es: " + altura)
+    } else {
+        alert("No es un triángulo isósceles.")
+    }
+
+}

@@ -14,3 +14,9 @@ Curso practico de Javascript
 - Segundo paso: Implementar las fórmulas en JS
 - Tercer paso : Crear las funciones
 - Cuarto paso : Integrar JS con HTML
+
+## Taller práctico # 3: Cálculo de Promedio, mediana y moda
+- Primer paso : Definir las fórmulas
+- Segundo paso: Implementar las fórmulas en JS
+- Tercer paso : Crear las funciones
+- Cuarto paso : Integrar JS con HTML
